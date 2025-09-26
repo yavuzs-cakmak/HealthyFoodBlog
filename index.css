@@ -1,0 +1,152 @@
+/* 1. universal selector ile yazı rengini #3c373b yapınız */
+
+body {
+  padding: 0px;
+  margin: 0px;
+  color: #3c373b;
+}
+
+h1 {
+  font-family: 'Gaegu', cursive;
+  margin: 20px 0;
+  font-size: 60px;
+  text-align: center;
+  /* 2. h1 için yazı karakteri büyüklüğünü 60px yapınız ve yazıyı ortalayınız*/
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Gaegu', cursive;
+  margin-bottom: 0;
+  padding: 0 10px;
+  font-size: 30px;
+  clear: both;
+  /* 3. yazı karakteri büyüklüğünü 30px yapınız ve resimlerin yazının içine girmesini engelleyiniz(clear)*/
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  line-height: 1.4;
+  margin: 0px;
+}
+/* 4. sayfadaki tüm paragraflar için;
+
+- yazı büyüklüğü 16px
+- yazı karakteri Roboto
+- iç boşluklar 10px
+- satır yüksekliğini normal yüksekliğin %140'ı
+- dış boşluğu 0px yapınız
+*/
+.banner img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover; /* Resmi kutuya sığdırır */
+}
+img {
+  border-radius: 10px;
+  width: 100%;
+  /* 5. kenarlarını 10px olarak yuvarlatınız ve genişliğini bulunduğu alanın tamamı(100%) yapınız*/
+}
+
+ul {
+  margin: 0 10px;
+  padding: 0;
+  list-style-type: none;
+  line-height: 1.5;
+  /* 6. iletişim bölümündeki bilgiler için bir sıralı olmayan bir liste için stil kuralları set ediniz;
+- üst alt dış boşluğu 0px, sol sağ dış boşluğu 10px olsun
+- listenin her elemanının solunda yuvvarlak buton olmasın
+- listende girinti olmasın.
+- satır yüksekliğini normal yüksekliğin %150'si yapınız
+*/
+}
+
+.left-img img {
+  float: left;
+  margin-right: 20px;
+  /* 7. sadece metin ile arasına 20px dış boşluk ekleyiniz ve resmin yazının solunda olmasını sağlayınız. */
+  width: 200px;
+}
+
+.right-img img {
+  float: right;
+  margin-left: 20px;
+  width: 200px;
+  /* 8. sadece metin ile arasına 20px dış boşluk ekleyiniz ve resmin yazının sağında olmasını sağlayınız. */
+}
+
+.container {
+  width: 750px;
+  margin: 0 auto;
+  display: block;
+  /* 9. container class'ı için stil kurallarını ayarlayınız;
+- genişliği 750px olsun
+- margin: 0 auto olsun
+- display: block olsun */
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 10px;
+  align-items: center;
+  align-content: stretch;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+header nav a {
+  border: 1px solid lightgray;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  text-decoration: none;
+  width: 20%;
+  color: white;
+  background-color: #e79947;
+  text-align: center;
+
+  /* 10. arka plan rengi #e79947, yazıları beyaz ve ortalı olsun */
+}
+
+header nav a:hover {
+  background: white;
+  color: #e79947;
+}
+
+.iletisim-section {
+  /* 11. aşağıdaki elemanın altında 1px kalınlığında ve kesikli çizgi şeklinde siyah bir border olsun */
+  padding: 20px 0;
+  border-bottom: 1px dashed black;
+}
+
+.iletisim-section p {
+  padding: 5px 0px;
+}
+
+footer {
+  width: 100%;
+  background: #e79947;
+  border-top: 1px dashed black;
+  text-align: center;
+}
+
+footer a {
+  margin: 10px;
+  color: black;
+  text-decoration: underline;
+}
+
+footer nav a:hover {
+  color: white;
+}
+
+footer .copyright {
+  padding: 20px 0;
+  text-align: center;
+}
