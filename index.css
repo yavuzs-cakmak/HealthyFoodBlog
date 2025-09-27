@@ -1,9 +1,11 @@
 /* 1. universal selector ile yazı rengini #3c373b yapınız */
+* {
+  color: #3c373b;
+}
 
 body {
   padding: 0px;
   margin: 0px;
-  color: #3c373b;
 }
 
 h1 {
