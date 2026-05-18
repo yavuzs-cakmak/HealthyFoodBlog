@@ -1,4 +1,4 @@
-/* 1. universal selector ile yazı rengini #3c373b yapınız */
+
 * {
   color: #3c373b;
 }
@@ -13,7 +13,7 @@ h1 {
   margin: 20px 0;
   font-size: 60px;
   text-align: center;
-  /* 2. h1 için yazı karakteri büyüklüğünü 60px yapınız ve yazıyı ortalayınız*/
+  
 }
 
 h2,
@@ -26,7 +26,7 @@ h6 {
   padding: 0 10px;
   font-size: 30px;
   clear: both;
-  /* 3. yazı karakteri büyüklüğünü 30px yapınız ve resimlerin yazının içine girmesini engelleyiniz(clear)*/
+  
 }
 
 p {
@@ -36,23 +36,16 @@ p {
   line-height: 1.4;
   margin: 0px;
 }
-/* 4. sayfadaki tüm paragraflar için;
 
-- yazı büyüklüğü 16px
-- yazı karakteri Roboto
-- iç boşluklar 10px
-- satır yüksekliğini normal yüksekliğin %140'ı
-- dış boşluğu 0px yapınız
-*/
 .banner img {
   width: 100%;
   height: 400px;
-  object-fit: cover; /* Resmi kutuya sığdırır */
+  object-fit: cover; 
 }
 img {
   border-radius: 10px;
   width: 100%;
-  /* 5. kenarlarını 10px olarak yuvarlatınız ve genişliğini bulunduğu alanın tamamı(100%) yapınız*/
+  
 }
 
 ul {
@@ -60,18 +53,13 @@ ul {
   padding: 0;
   list-style-type: none;
   line-height: 1.5;
-  /* 6. iletişim bölümündeki bilgiler için bir sıralı olmayan bir liste için stil kuralları set ediniz;
-- üst alt dış boşluğu 0px, sol sağ dış boşluğu 10px olsun
-- listenin her elemanının solunda yuvvarlak buton olmasın
-- listende girinti olmasın.
-- satır yüksekliğini normal yüksekliğin %150'si yapınız
-*/
+ 
 }
 
 .left-img img {
   float: left;
   margin-right: 20px;
-  /* 7. sadece metin ile arasına 20px dış boşluk ekleyiniz ve resmin yazının solunda olmasını sağlayınız. */
+  
   width: 200px;
 }
 
@@ -79,17 +67,14 @@ ul {
   float: right;
   margin-left: 20px;
   width: 200px;
-  /* 8. sadece metin ile arasına 20px dış boşluk ekleyiniz ve resmin yazının sağında olmasını sağlayınız. */
+  
 }
 
 .container {
   width: 750px;
   margin: 0 auto;
   display: block;
-  /* 9. container class'ı için stil kurallarını ayarlayınız;
-- genişliği 750px olsun
-- margin: 0 auto olsun
-- display: block olsun */
+  
 }
 
 header nav {
@@ -113,7 +98,7 @@ header nav a {
   background-color: #e79947;
   text-align: center;
 
-  /* 10. arka plan rengi #e79947, yazıları beyaz ve ortalı olsun */
+  
 }
 
 header nav a:hover {
@@ -122,7 +107,7 @@ header nav a:hover {
 }
 
 .iletisim-section {
-  /* 11. aşağıdaki elemanın altında 1px kalınlığında ve kesikli çizgi şeklinde siyah bir border olsun */
+  
   padding: 20px 0;
   border-bottom: 1px dashed black;
 }
