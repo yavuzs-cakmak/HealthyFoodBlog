@@ -2,7 +2,7 @@
 Sağlıklı ve lezzetli yemek tariflerinin buluşma noktası. Food El Blog, geleneksel Türk mutfağını modern bir dokunuşla sunan, hamburgersiz bir dünya hayal edenler için hazırlanmış özel bir blog platformudur.
 
 [![Website](https://img.shields.io/badge/🌐-Siteyi_Ziyaret_Et-2ea44f?style=for-the-badge)](https://yavuzs-cakmak.github.io/HealthyFoodBlog/)
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?style=for-the-badge&logo=github)](https://pages.github.com/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?style=for-the-badge&logo=github)](https://github.com/yavuzs-cakmak/HealthyFoodBlog)
 ---
 
 ## 📌 PROJE HAKKINDA
