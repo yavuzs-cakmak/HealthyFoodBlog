@@ -70,6 +70,7 @@ cd HealthyFoodBlog
 Proje ile ilgili görüş, öneri veya iş birlikleri için:
 
 Email: cakmakselimfb58@gmail.com
+Linkedin: https://www.linkedin.com/in/yavuzscakmak/
 
 📄 LİSANS
 Bu proje özel bir blog sitesi olarak geliştirilmiştir. Tüm hakları saklıdır. © Food El Blog 2025
